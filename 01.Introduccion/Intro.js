@@ -18,7 +18,13 @@
 // Ejercicio N° 1:
 // Un estudiante obtuvo calificaciones de 8, 7 y 9 en tres exámenes respectivamente. ¿Cuál es el promedio de sus calificaciones?
 // Tu codigo 👇:
+let calificacion1 = 8;
+let calicacion2 = 7;
+let calicacion3 = 9;
 
+const promedio = (calificacion1 + calicacion2 + calicacion3) / 3;
+
+document.write("El promedio de las calificaciones es: " + promedio);
 
 //_________________________________________
 
@@ -26,6 +32,10 @@
 // Ejercicio N° 2:
 // Juan quiere saber cuántas letras tiene su nombre. ¿Cuál es la longitud del nombre "Juan"?
 // Tu codigo 👇:
+let nombre = "Juan";
+let longituNombre = nombre.length;
+
+document.write("La longitud del nombre Juan es de: " + longituNombre);
 
 
 //_________________________________________
@@ -35,6 +45,10 @@
 // Si una distancia se mide en metros y se desea conocer su equivalencia en pies, donde 1 metro equivale a 3.281 pies, ¿cuántos pies son 10 metros?
 // Tu codigo 👇:
 
+let metros = 10;
+let pies = metros * 3.281;
+
+document.write("10 metros equivalen a " + pies + "pies")
 
 //_________________________________________
 
@@ -42,7 +56,12 @@
 // Ejercicio N° 4:
 // Un producto tiene un precio original de $100. Si hay un descuento del 20%, ¿cuál es el precio final del producto después del descuento?
 // Tu codigo 👇:
+let precioOriginal = 100;
+let porcentajeDescuento = 20;
+let descuento = (precioOriginal * porcentajeDescuento) / 100;
+let precioFinal = precioOriginal - descuento;
 
+document.write("El precio final del producto es de: " + precioFinal);
 
 //_________________________________________
 
@@ -54,7 +73,12 @@
 // Pidele al usuario que ingrese su Nombre y Apellido - luego devuelve por consola un saludo de bienvenida concatenando su nombre y apellido.
 // Ejemplo: Lionel Messi -> Bienvenido Lionel Messi 
 // Tu codigo 👇:
+let nombre = prompt("Ingresa tu nombre");
+let apellido = prompt("Ingresa tu apellido");
 
+let saludo = "Bienvenido " + nombre + apellido;
+
+console.log(saludo);
 
 //_________________________________________
 
